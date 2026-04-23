@@ -1,0 +1,40 @@
+/*  Name : Gursimratpreet Kaur
+Student ID: 991845418 
+Assignment-4
+Date Completed: April 5, 2026*/
+textarea{
+    resize: none;
+    width: 30vw;
+}
+
+.buttons{
+    text-align: center;
+    font-size: larger;
+}
+body{
+    background-color:aliceblue;
+}
+
+legend{
+    color: brown;
+    font-size: 25px;
+    font-style: italic;
+    text-shadow: 2px 1px 1px lightcoral;
+}
+fieldset{
+    background-color: rgb(229, 209, 184);
+    border: 2px solid black;
+}
+footer{
+    background-color: aqua;
+}
+form{
+    display: flex;
+    flex-direction: row;  
+}
+#one{
+    width: 50vw;
+}
+#two{
+    width: 30vw;
+}

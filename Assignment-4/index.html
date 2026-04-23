@@ -1,0 +1,63 @@
+<!Name: Gursimratpreet Kaur
+Student ID: 991845418
+Assignment-4
+Date Completed: April 5, 2026>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Style/TheStyle.css">
+</head>
+<body>
+    <main>
+        <div class="buttons">
+        <input type="button" value="Review Order" id="review" class="btn">
+        <input type="button" value="Add Order" id="add" class="btn">
+        <input type="button" value="Cancel Order" id="cancel" class="btn">
+        <input type="button" value="Send Orders" id="send" class="btn"> 
+        </div>
+        <form>
+        <div id="one">
+        <fieldset id="first">
+            <fieldset>
+                <legend>Shipping Address</legend>
+                <label for="txtID">ID: </label>
+                <input type="text" name="textId" id="txtID" /><br>
+                <label for="txtName">Name: </label>
+                <input type="text" name="textName" id="txtName" /><br>
+                <label for="txtCity">City: </label>
+                <input type="text" name="textCity" id="txtCity" />
+            </fieldset>
+            <fieldset>
+                <legend>Payment Mathod</legend>
+                <input type="radio" name="radPay" value="Credit Card" checked>Credit Card<br>
+                <input type="radio" name="radPay" value="Debit Card">Debit Card<br>
+                <input type="radio" name="radPay" value="Gift Card">Gift Card
+            </fieldset>
+            <fieldset>
+                <legend>Shipment Method</legend>
+                <select name="shipMethod">
+                    <option value="Same Day">Same Day</option>
+                    <option value="Priority">Priority</option>
+                    <option value="Regular Mail">Regular Mail</option>
+                </select>
+        </fieldset>
+        </div>
+        <div id="two">
+            <fieldset>
+                <legend>Shipment Information</legend>
+                <textarea name="summary" rows="25" cols="25"></textarea>
+            </fieldset>
+        </div>
+        </form>
+        
+    </main>
+    <footer>
+        <h3>Name: Gursimratpreet Kaur</h3>
+        <h3>Student id: 991845418</h3>
+    </footer>
+    <script src="Script/TheScript.js"></script>
+</body>
+</html>
